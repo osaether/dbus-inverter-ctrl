@@ -1,0 +1,11 @@
+--- PageDigitalInput.qml	2019-03-20 21:13:01.634990379 +0100
++++ PageDigitalInput.qml.new	2019-03-20 21:09:12.222990379 +0100
+@@ -46,6 +46,8 @@
+ 			return qsTr("CO2 alarm")
+ 		case "Generator":
+ 			return qsTr("Generator")
++		case "Inverter control":
++			return qsTr("Inverter control")
+ 		}
+ 		return type;
+ 	}

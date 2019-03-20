@@ -1,0 +1,12 @@
+--- PageMain.qml	2019-03-20 21:12:51.834990379 +0100
++++ PageMain.qml.new	2019-03-16 22:28:13.000000000 +0100
+@@ -138,6 +138,9 @@
+ 			return;
+ 		}
+ 
++		if (service.description == "Inverter control")
++			return;
++
+ 		var submenu = submenuLoader.createObject(root)
+ 		submenu.service = service
+ 

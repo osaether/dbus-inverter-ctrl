@@ -1,0 +1,12 @@
+--- MbItemDigitalInput.qml	2019-03-20 21:13:15.562990379 +0100
++++ MbItemDigitalInput.qml.new	2019-03-20 21:20:24.982990379 +0100
+@@ -14,7 +14,8 @@
+ 		MbOption { description: qsTr("Smoke alarm"); value: 6 },
+ 		MbOption { description: qsTr("Fire alarm"); value: 7 },
+ 		MbOption { description: qsTr("CO2 alarm"); value: 8 },
+-		MbOption { description: qsTr("Generator"); value: 9 }
++		MbOption { description: qsTr("Generator"); value: 9 },
++		MbOption { description: qsTr("Inverter control"); value: 10 }
+ 	]
+ 	onValueChanged: {
+ 		if (valid) {
