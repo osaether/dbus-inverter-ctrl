@@ -1,0 +1,22 @@
+--- dbus_digitalinputs.py	2019-03-21 18:53:48.799008076 +0100
++++ dbus_digitalinputs.py.new	2019-03-21 18:52:18.077670076 +0100
+@@ -36,6 +36,8 @@
+     'Smoke alarm',
+     'Fire alarm',
+     'CO2 alarm',
++    'Generator',
++    'Inverter control'
+ ]
+ 
+ # Translations. The text will be used only for GetText, it will be translated
+@@ -356,6 +358,10 @@
+     type_id = 9
+     translation = 5 # running, stopped
+ 
++class InverterControl(PinAlarm):
++    _product_name = "Inverter control"
++    type_id = 10 
++    translation = 1 #on, off
+ 
+ def dbusconnection():
+     return SessionBus() if 'DBUS_SESSION_BUS_ADDRESS' in os.environ else SystemBus()
