@@ -1,9 +1,11 @@
---- dbus_digitalinputs.py	2019-03-21 18:53:48.799008076 +0100
-+++ dbus_digitalinputs.py.new	2019-03-21 18:52:18.077670076 +0100
-@@ -36,6 +36,8 @@
+--- dbus_digitalinputs.py	2019-03-21 19:46:47.639634076 +0100
++++ dbus_digitalinputs.py.new	2019-03-21 19:46:15.419532076 +0100
+@@ -35,7 +35,9 @@
+     'Burglar alarm',
      'Smoke alarm',
      'Fire alarm',
-     'CO2 alarm',
+-    'CO2 alarm'
++    'CO2 alarm',
 +    'Generator',
 +    'Inverter control'
  ]
