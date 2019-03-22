@@ -11,9 +11,9 @@ on or off depending on the state it was in.
 Normally the service will be started by a daemontools run script. However, to run
 it manually on, use this command:
 
-    python dbus-inverter-ctrl.py
+    python dbus_inverter_ctrl.py
 
 # Todo
 
-- [ ] Automatic enumeration of inverters in the system
+- [ ] Automatic enumeration of Multiplus/inverters in the system
 - [ ] Configurable input pin number
