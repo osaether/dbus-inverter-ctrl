@@ -11,7 +11,7 @@ def track(conn, value):
     newval = 3 if currval==4 else 4
     if int(value["Value"])==3:
         conn.get_object("com.victronenergy.vebus.ttyO5",
-            "/Mode").SetValue(newval)
+            "/Mode").SetValue(dbus.UInt32(newval, variant_level=1))
 
 def main():
     DBusGMainLoop(set_as_default=True)
