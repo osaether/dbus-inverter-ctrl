@@ -1,12 +1,11 @@
---- PageMain.qml	2019-03-20 21:12:51.834990379 +0100
-+++ PageMain.qml.new	2019-03-16 22:28:13.000000000 +0100
-@@ -138,6 +138,9 @@
+--- PageMain.qml	2019-04-07 21:38:53.835740066 +0200
++++ PageMain.qml.new	2019-04-07 21:33:33.431618065 +0200
+@@ -128,6 +128,8 @@
+ 		case DBusService.DBUS_SERVICE_SYSTEM_CALC:
  			return;
- 		}
- 
-+		if (service.description == "Inverter control")
-+			return;
-+
- 		var submenu = submenuLoader.createObject(root)
- 		submenu.service = service
- 
+ 		case DBusService.DBUS_SERVICE_DIGITAL_INPUT:
++			if (service.description == "Inverter control")
++				return;
+ 			page = digitalInputPage
+ 			break;
+ 		case DBusService.DBUS_SERVICE_PULSE_COUNTER:
