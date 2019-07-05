@@ -9,7 +9,7 @@ def track(conn, value):
     currval = int(conn.get_object("com.victronenergy.vebus.ttyO5",
             "/Mode").GetValue())
     newval = 3 if currval==4 else 4
-    if int(value["Value"])==3:
+    if int(value["Value"])==2:
         conn.get_object("com.victronenergy.vebus.ttyO5",
             "/Mode").SetValue(dbus.UInt32(newval, variant_level=1))
 
