@@ -9,7 +9,7 @@ on or off depending on the state it was in.
 # Running
 
 Normally the service will be started by a daemontools run script. However, to run
-it manually on, use this command:
+it manually, use this command:
 
     python dbus_inverter_ctrl.py
 
