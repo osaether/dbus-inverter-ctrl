@@ -6,12 +6,15 @@ though it may be applicable to other platforms as well. It monitors digital inpu
 on the Venus GX and when it detects a falling edge it swithces the inverter on ttyO5
 on or off depending on the state it was in.
 
-# Running
+# Installing
 
-Normally the service will be started by a daemontools run script. However, to run
-it manually, use this command:
+To install the service on your Venus device, copy one of the installers under [Releases](https://github.com/osaether/dbus-inverter-ctrl/releases)
+in this repo to your device (I use wget for that). Log into your Venus device with SSH
+and install it with opkg:
 
-    python dbus_inverter_ctrl.py
+    opkg install dbus-inverter-ctrl_0.8-r0_cortexa8hf-neon.ipk
+
+To install it on a Raspberri Pi use the file ```dbus-inverter-ctrl_0.8-r0_cortexa7hf-neon-vfpv4.ipk```
 
 # Todo
 
