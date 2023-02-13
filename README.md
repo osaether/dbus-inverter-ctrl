@@ -1,9 +1,8 @@
 # dbus-inverter-ctrl
 
-This is a service for the Venus OS on the beaglebone
-([Venus GX](https://www.victronenergy.com/panel-systems-remote-monitoring/venus-gx)),
+This is a service for the Venus OS on the Victron [Venus GX](https://www.victronenergy.com/panel-systems-remote-monitoring/venus-gx) or [Cerbo GX](https://www.victronenergy.com/panel-systems-remote-monitoring/cerbo-gx),
 though it may be applicable to other platforms as well. It monitors digital input pin1
-on the Venus GX and when it detects a falling edge it swithces the inverter on ttyO5
+on the Venus/Cerbo GX and when it detects a falling edge it swithces the inverter on ttyO5
 on or off depending on the state it was in.
 
 # Installing
@@ -14,7 +13,7 @@ and install it with opkg:
 
     opkg install dbus-inverter-ctrl_0.8-r0_cortexa8hf-neon.ipk
 
-To install it on a Raspberri Pi use the file ```dbus-inverter-ctrl_0.8-r0_cortexa7hf-neon-vfpv4.ipk```
+To install it on a Raspberri Pi use the file ```dbus-inverter-ctrl_0.8-r0_cortexa7hf-neon-vfpv4.ipk``` instead
 
 # Todo
 
