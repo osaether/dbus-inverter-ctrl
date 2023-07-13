@@ -11,9 +11,9 @@ To install the service on your Venus device, copy one of the installers under [R
 in this repo to your device (I use wget for that). Log into your Venus device with SSH
 and install it with opkg:
 
-    opkg install dbus-inverter-ctrl_0.8-r0_cortexa8hf-neon.ipk
+    opkg install dbus-inverter-ctrl_0.9-r0_cortexa8hf-neon.ipk
 
-To install it on a Raspberri Pi use the file ```dbus-inverter-ctrl_0.8-r0_cortexa7hf-neon-vfpv4.ipk``` instead
+To install it on a Raspberri Pi use the file ```dbus-inverter-ctrl_0.9-r0_cortexa7hf-neon-vfpv4.ipk``` instead
 
 # Todo
 
