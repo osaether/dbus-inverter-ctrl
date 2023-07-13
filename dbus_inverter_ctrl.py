@@ -3,7 +3,7 @@
 from functools import partial
 import dbus
 from dbus.mainloop.glib import DBusGMainLoop
-import gobject
+from gi.repository import GLib as gobject
 
 def track(conn, value):
     currval = int(conn.get_object("com.victronenergy.vebus.ttyO5",
