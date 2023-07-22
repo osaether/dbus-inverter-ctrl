@@ -1,9 +1,7 @@
 # dbus-inverter-ctrl
 
-This is a service for the Venus OS on the Victron [Venus GX](https://www.victronenergy.com/panel-systems-remote-monitoring/venus-gx) or [Cerbo GX](https://www.victronenergy.com/panel-systems-remote-monitoring/cerbo-gx),
-though it may be applicable to other platforms as well. It monitors digital input pin1
-on the Venus/Cerbo GX and when it detects a falling edge it swithces the inverter on ttyO5
-on or off depending on the state it was in.
+This is a service for the Venus OS on the Victron [Venus GX](https://www.victronenergy.com/panel-systems-remote-monitoring/venus-gx) or [Cerbo GX](https://www.victronenergy.com/panel-systems-remote-monitoring/cerbo-gx). It monitors digital input pin1
+on the Venus/Cerbo GX and when it detects a falling edge it swithces the inverter on ttyO5 on or off depending on the state it was in.
 
 # Building
 
