@@ -5,6 +5,10 @@ though it may be applicable to other platforms as well. It monitors digital inpu
 on the Venus/Cerbo GX and when it detects a falling edge it swithces the inverter on ttyO5
 on or off depending on the state it was in.
 
+# Building
+
+Instructions [here](https://github.com/osaether/meta-dbus-inverter-ctrl)
+
 # Installing
 
 To install the service on your Venus device, copy one of the installers under [Releases](https://github.com/osaether/dbus-inverter-ctrl/releases)
