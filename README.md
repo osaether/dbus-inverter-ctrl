@@ -5,7 +5,7 @@ on the Venus/Cerbo GX and when it detects a falling edge it swithces the inverte
 
 # Building
 
-Instructions [here](https://github.com/osaether/meta-dbus-inverter-ctrl)
+Instructions for building the installer [here](https://github.com/osaether/meta-dbus-inverter-ctrl)
 
 # Installing
 
